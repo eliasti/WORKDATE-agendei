@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="370dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/shape_filter"
+    android:orientation="vertical"
+    android:paddingBottom="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/choose_filters"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/autoCompleteTextView_client"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        app:boxBackgroundColor="@color/colorEditTextFilter"
+        app:boxCornerRadiusTopEnd="4dp"
+        app:boxCornerRadiusTopStart="4dp"
+        app:endIconMode="clear_text"
+        app:hintEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:startIconContentDescription="@string/client"
+        app:startIconDrawable="@drawable/ic_client">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_client_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client"
+            android:inputType="textAutoComplete" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/autoCompleteTextView_service"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="@color/colorEditTextFilter"
+        app:boxCornerRadiusTopEnd="4dp"
+        app:boxCornerRadiusTopStart="4dp"
+        app:endIconMode="clear_text"
+        app:hintEnabled="false"
+        app:layout_constraintEnd_toEndOf="@+id/autoCompleteTextView_client"
+        app:layout_constraintStart_toStartOf="@+id/autoCompleteTextView_client"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView_client"
+        app:startIconContentDescription="@string/client"
+        app:startIconDrawable="@drawable/ic_services">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_service_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/service"
+            android:inputType="textAutoComplete" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/from"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView_service" />
+
+    <Button
+        android:id="@+id/dialog_filter_from_date_btn"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_shape_form_schedule_date_hour"
+        android:text="@string/date_format"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/to"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/dialog_filter_to_date_btn"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button_shape_form_schedule_date_hour"
+        android:text="@string/date_format"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/dialog_filter_from_date_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dialog_filter_from_date_btn"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_one"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="@string/canceled"
+        android:textColor="@color/colorPrimary"
+        app:chipBackgroundColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_two"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finished"
+        android:textColor="@color/colorPrimary"
+        app:chipBackgroundColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="@+id/chip_one"
+        app:layout_constraintStart_toStartOf="@+id/chip_one"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/dialog_filter_save_btn"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape_form_schedule_save"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/filter"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="597dp"
+        android:layout_height="23dp"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

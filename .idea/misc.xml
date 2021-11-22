@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_call.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_client.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_client_address.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_client_phone.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_clients.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_filter.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_location.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_schedule_black_24dp.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_schedule_clock.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_service_value.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable-anydpi/ic_services.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/background_app_splash_screen.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/button_shape_form_schedule_date_hour.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/buttonshape_form_schedule_save.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/circle_item_client.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/circle_item_service.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/custom_ripple.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/ic_more_item_card.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/drawable/shape_filter.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/client_formulary.xml" value="0.24230072463768115" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/dialog_filter.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_expense.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_form_schedule.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_list_client.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_list_release.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_list_schedule.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_list_service.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/fragment_revenue.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/frame_navigation.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/list_item_client.xml" value="0.1793478260869565" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/list_item_release.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/list_item_schedule.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/list_item_service.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/layout/service_formulary.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/menu/base_context_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/menu/base_filter_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/menu/base_search_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/menu/bottom_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/menu/list_options_item_client_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/menu/list_options_item_schedule_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/mipmap-anydpi-v26/ic_launcher_workdate.xml" value="0.14635416666666667" />
+        <entry key="..\:/estg3/work-date-develop/app/src/main/res/mipmap-anydpi-v26/ic_launcher_workdate_round.xml" value="0.152" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
